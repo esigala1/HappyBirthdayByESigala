@@ -4,32 +4,61 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/black"
     tools:context=".MainActivity">
 
     <ImageView
+        android:foregroundGravity="bottom"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/androidparty"/>
+        android:contentDescription="@string/image_fidel"
+        android:src="@drawable/fidel_moto_585x1040" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
-        android:text="@string/happy_birthday_fidel"
-        android:textColor="@android:color/white"
-        android:layout_margin="20dp"
+        android:background="@android:color/black"
+        android:fontFamily="serif"
+        android:paddingBottom="7dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:text="@string/happy_birthday"
+        android:textColor="#ff4d94"
         android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:fontFamily="cursive"
+        android:text="@string/fidel"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#4dffff"
+        android:textSize="98sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:contentDescription="@string/image_fidel"
+        android:scaleType="fitCenter"
+        android:src="@drawable/braaap_300x300" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:fontFamily="sans-serif-light"
-        android:text="@string/from_effie"
-        android:textColor="@android:color/white"
-        android:layout_margin="20dp"
-        android:textSize="36sp" />
+        android:paddingBottom="4dp"
+        android:paddingRight="7dp"
+        android:fontFamily="casual"
+        android:text="@string/from"
+        android:textColor="#ff4d94"
+        android:textSize="14sp"
+        android:textStyle="normal|italic" />
 
 </RelativeLayout>
