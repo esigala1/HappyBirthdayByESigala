@@ -63,6 +63,6 @@
         android:text="@string/from"
         android:textColor="#ff4d94"
         android:textSize="14sp"
-        android:textStyle="normal|italic" />
+        android:textStyle="italic" />
 
 </RelativeLayout>
