@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="Happy Birthday, Fidel!"
+        android:text="@string/happy_birthday_fidel"
         android:textColor="@android:color/white"
         android:layout_margin="20dp"
         android:textSize="36sp" />
@@ -27,7 +27,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:fontFamily="sans-serif-light"
-        android:text="From, Effie!"
+        android:text="@string/from_effie"
         android:textColor="@android:color/white"
         android:layout_margin="20dp"
         android:textSize="36sp" />
