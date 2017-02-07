@@ -5,6 +5,12 @@ An android app that displays a `birthday card`.
 
 Developed for the **Udacity** course **_"Android Development for Beginners by Google"_**.
 
+<div align="center">
+  <br><br>
+  <img src="https://c1.staticflickr.com/1/544/31920024954_c94f681736_o.png" height="400" width="240"></img>
+  <br><br>
+</div>
+
 Useful Links
 --------------
 
