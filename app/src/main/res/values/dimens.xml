@@ -7,6 +7,8 @@
     <dimen name="layout_padding_right">8dp</dimen>
     <dimen name="layout_margin_right">15dp</dimen>
 
+    <dimen name="image_height_braaap">90dp</dimen>
+
     <dimen name="text_size_h1">97sp</dimen>
     <dimen name="text_size_h2">30sp</dimen>
     <dimen name="text_size_h3">18sp</dimen>
